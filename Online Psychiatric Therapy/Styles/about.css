@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ///////////..utility classes../////////// */
+.container {
+  max-width: 1100px;
+  width: 80%;
+  margin: auto;
+  height:450px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 1em;
+  text-transform: uppercase;
+  font-weight: small;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #16a083;
+}
+
+.btn-primary:hover {
+  background: #117964;
+  transition: background 0.3s ease-in-out;
+}
+
+/* ............//// Showcase styling ////......... */
+
+.showcase-area {
+  height: 50vh;
+  background: linear-gradient(
+      rgba(240, 240, 240, 0.144),
+      rgba(255, 255, 255, 0.336)
+    ),
+    url("red.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.6rem;
+}
+
+.main-title {
+  text-transform: uppercase;
+  margin-top: 1.5em;
+}
+
+/* ......//about us//...... */
+
+
+
+.video-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ h2 {
+  font-size: 2rem;
+}
+
+ p {
+  font-size: 17px;
+  color: #555;
+}
+ 
+.video-wrapper-1
+{
+  transform: translate(-3%,-5%);
+}
+
+@keyframes video-wrapper-1-animation {
+  100% {
+    transform: translate(0);
+  }
+}
+
+.box-1{
+  width: 710px;
+  height:400px;
+  float: none;
+  margin:150px auto;
+  background:  rgba(255, 255, 255, 0.158);
+  top: 45%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-10%,-20%);
+  box-sizing: border-box;
+  padding: 40px 70px;
+  }
+  
+@keyframes box-1-animation {
+  100% {
+    transform: translate(0);
+  }
+}
+
+.video-wrapper-2
+{
+  transform: translate(-3%,-10%);
+}
+.box-2{
+    width: 710px;
+    height:400px;
+    float: none;
+    margin:150px auto;
+    background: rgba(255, 255, 255, 0.158);
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-10%,85%);
+    box-sizing: border-box;
+    padding: 40px 70px;
+}
+.video-wrapper-3
+{
+transform: translate(-3%,-15%);
+}
+
+.box-3{
+  width:710px;
+  height:400px;
+  float: none;
+  margin:150px auto;
+  background:rgba(255, 255, 255, 0.158);
+  top: 45%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-10%,190%);
+  box-sizing: border-box;
+  padding: 40px 70px;
+  }
+

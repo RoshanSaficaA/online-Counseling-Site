@@ -1,0 +1,269 @@
+body {
+  display: flex;
+  align-items: center;
+justify-content:center;
+  flex-flow:row wrap;
+margin:0;
+                padding:0;
+                background:url(image10.jpg)no-repeat center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+
+}
+
+hr
+{
+border: 1px solid white;
+color:white;
+}
+
+h3{
+font-size:24px;
+color:white;
+}
+
+.box{
+width: 900px;
+height:650px;
+float: none;
+margin:150px auto;
+background:rgba(44, 43, 43, 0.507);
+color:black;
+top: 45%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-23%);
+box-sizing: border-box;
+box-shadow: 5px 5px 5px 5px rgba(41,40,40,0.247);
+padding: 50px 70px;
+}
+
+label[for=first_name]
+{
+width 12cm;
+margin:15px 50px 0px 0;
+display:inline-block;
+border-radius:10px;
+}
+#first_name
+{
+margin:15px 60px 5px 0;
+padding:5px;
+width:160px;
+font-size:17px;
+}
+
+label[for=dob]
+{
+width 12cm;
+margin:15px 35px 0px 0;
+display:inline-block;
+border-radius:10px;
+}
+#dob
+{
+margin:15px 65px 5px 0;
+padding:5px;
+width:160px;
+font-size:17px;
+}
+
+
+label[for=gender]
+{
+width 12cm;
+margin:15px 85px 0px 0;
+display:inline-block;
+border-radius:10px;
+}
+#gender
+{
+margin:20px 60px 5px 0;
+padding:5px;
+width:160px;
+font-size:17px;
+}
+
+label[for=community]
+{
+width 12cm;
+margin:15px 55px 0px 0;
+display:inline-block;
+border-radius:10px;
+}
+#community
+{
+margin:15px 60px 5px 0;
+padding:5px;
+width:160px;
+font-size:17px;
+}
+
+label[for=number]
+{
+width 12cm;
+margin:15px 20px 0px 0;
+display:inline-block;
+border-radius:10px;
+}
+#number
+{
+margin:15px 53px 5px 0;
+padding:5px;
+width:170px;
+font-size:16px;
+}
+label[for=last_name]
+{
+width 12cm;
+margin:15px 30px 0px 0;
+display:inline-block;
+border-radius:10px;
+}
+#last_name
+{
+margin:15px 0px 5px 0;
+padding:5px;
+width:160px;
+font-size:17px;
+}
+
+label[for=age]
+{
+width 12cm;
+margin:15px 80px 0px 0;
+display:inline-block;
+border-radius:10px;
+}
+#age
+{
+margin:15px 0px 5px 0;
+padding:5px;
+width:90px;
+font-size:17px;
+}
+
+label[for=status]
+{
+width 12cm;
+margin:15px 15px 0px 0;
+display:inline-block;
+border-radius:10px;
+}
+#status
+{
+margin:15px 0px 5px 0;
+padding:5px;
+font-size:17px;
+}
+
+label[for=nationality]
+{
+width 12cm;
+margin:15px 35px 0px 0;
+display:inline-block;
+border-radius:10px;
+}
+#nationality
+{
+margin:15px 40px 5px 0;
+padding:5px;
+width:160px;
+font-size:17px;
+}
+
+label[for=email]
+{
+width 12cm;
+margin:15px 65px 0px 0;
+display:inline-block;
+border-radius:10px;
+}
+#email
+{
+margin:15px 30px 5px 0;
+padding:5px;
+font-size:16px;
+}
+
+label[for=address]
+{
+width 12cm;
+margin:15px 70px 0px 0;
+display:inline-block;
+border-radius:10px;
+}
+#address
+{
+margin:15px 35px 5px 0;
+padding:5px;
+width:500px;
+height:90px;
+font-size:17px;
+}
+
+label[for=city]
+{
+width 12cm;
+margin:15px 30px 0px 0;
+display:inline-block;
+border-radius:10px;
+}
+#city
+{
+margin:15px 30px 5px 0;
+padding:5px;
+width:120px;
+font-size:17px;
+}
+
+label[for=state]
+{
+width 12cm;
+margin:15px 30px 0px 0;
+display:inline-block;
+border-radius:10px;
+}
+#state
+{
+margin:15px 30px 5px 0;
+padding:5px;
+width:120px;
+font-size:17px;
+}
+
+label[for=zip_code]
+{
+width 12cm;
+margin:15px 25px 0px 0;
+display:inline-block;
+border-radius:10px;
+}
+#zip_code
+{
+margin:15px 35px 10px 0;
+padding:5px;
+width:120px;
+font-size:17px;
+}
+
+@media (max-width:800px)
+{
+form input{
+margin:10px 0;
+}
+form
+{
+flex-direction:column;
+align-items:stretch;
+}
+}
+button
+{
+transform: translate(630%,40%);
+width:95px;
+color:black;
+}
+
+

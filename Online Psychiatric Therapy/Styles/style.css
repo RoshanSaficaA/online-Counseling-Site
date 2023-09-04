@@ -1,0 +1,40 @@
+body
+{
+background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(image.jpg);
+background-size:cover;
+background-position:center;
+}
+.box{
+max-width: 700px;
+float: none;
+margin:150px auto;
+background: rgba(255, 255, 255, 0.158);
+color:black;
+top: 45%;
+left: 50%;
+position: absolute;
+transform: translate(-55%,-73%);
+box-sizing: border-box;
+padding: 50px 55px;
+}
+
+.login-right
+{
+background: rgba(255, 255, 255, 0.158);
+padding: 30px;
+}
+.form-control
+{
+background-color: transparent !important;
+}
+a{
+color: black !important;
+margin-top: -200px !important;
+}
+
+h1{
+color: #fff !important;
+margin-top:200px !important;
+text-align:center;
+text-transform:uppercase;
+}

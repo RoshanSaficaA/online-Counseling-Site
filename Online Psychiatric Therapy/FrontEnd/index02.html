@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> HARMONY </title>
+        <style>
+            body{
+                margin:0;
+                padding:0;
+                background:url(final.jpg)no-repeat center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+            }
+
+            nav{
+                width:100%;
+                text-align:center;
+                overflow:auto;
+            }
+            ul{
+                padding:0;
+              
+                list-style:none;
+            }
+            li{
+                float:right;
+            }
+           
+            
+            nav a{
+                display:block;
+                letter-spacing:4px;
+                width:180px;
+                padding:10px 20px;
+                text-decoration:none;
+                font-family:Verdana;
+                color:black;
+                font-size:18px;
+                 
+            }
+            nav a:hover{
+                
+                transition:0.5s;
+                text-transform:uppercase;
+            }
+            h6{
+               text-align:left;
+               padding-left:360px;
+               margin:auto;
+               font-size:40px !important;
+
+
+              }
+            p{
+      
+              text-align:left;
+              font-size:24px !important;
+              padding-left:430px;
+                
+
+              }
+
+
+@-webkit-keyframes shiny-btn1 {
+    0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+* {
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+}
+:active, :hover, :focus {
+  outline: 0!important;
+  outline-offset: 0;
+}
+::before,
+::after {
+  position: absolute;
+  content: "";
+}
+
+.btn-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 10px auto 35px;
+}
+.btn {
+  position: relative;
+  display: inline-block;
+  width: auto; height: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0px 25px 15px;
+  min-width: 110px;
+}
+  .btn span {         
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    transition: 0.3s;
+
+  }
+.btn-2 {
+transform: translate(-15%,-2%);
+}
+.btn-2::before {
+  background-color: rgb(28, 31, 30);
+  transition: 0.3s ease-out;
+}
+.btn-2 span {
+  color: rgb(255,255,255);
+  border: 1px solid rgb(28, 31, 30);
+  transition: 0.2s 0.1s;
+
+}
+.btn-2 span:hover {
+  color: rgb(28, 31, 30);
+  transition: 0.2s 0.1s;
+}
+.btn.hover-filled-opacity::before {
+  top:0; bottom: 0; right: 0;
+  height: 100%; width: 100%;
+  opacity: 1;
+}
+.btn.hover-filled-opacity:hover::before {
+  opacity: 0;
+}
+        </style>
+    </head>
+    <body>
+     
+        <nav>
+     <div class="logo" >
+            <a href="#"><img src="logorose.png" style="float:left;margin: 0px 15px 15px 0px; width:150px;">
+            </a></div>
+            <ul> 
+                
+         <form action=login.php>       
+         <li> <button class="btn btn-2 hover-filled-opacity">
+    <span>Login</span>
+  </button></li></form>
+                <li><a href="review.php"> Review</a></li>
+                <li><a href="index01.html"> Contact</a></li>
+                <li><a href="about.php"> About Us</a></li>
+                <li><a href="navbar1.html"> Home</a></li>
+            </ul>
+        </nav>
+
+<div class="container">
+<h6><strong>Thank You!</strong>Get in Touch<br></h6>
+<br><br>
+<p>We will contact you soon...</p>
+
+    </body>
+    </html>
+            

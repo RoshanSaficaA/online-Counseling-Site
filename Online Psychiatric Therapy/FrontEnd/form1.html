@@ -1,0 +1,63 @@
+   <!DOCTYPE html>
+<html>
+<head>
+<title>Guardian Registration form</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="
+sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">"
+<link rel="stylesheet" href="form1.css">
+</head>
+<body>
+
+<div class="col-md-6">
+
+<div class="box">
+<h3 access="false">Guardian Information</h3><hr>
+  <form  class="form-inline" action="form1.php" method="post">
+
+  <div class="rendered-form">
+  <div class="row">
+    <div class="formbuilder-text form-group field-name">
+        <label for="name" class="formbuilder-text-label">Guardian Name<span class="formbuilder-required">*</span><span class="tooltip-element" tooltip="Enter Your First Name">?</span></label>
+        <input type="text" class="form-control" name="name" access="false" id="name" title="Enter Your First Name" required="required" aria-required="true">
+    </div>
+    <div class="formbuilder-select form-group field-gender">
+        <label for="gender" class="formbuilder-select-label">Gender<span class="formbuilder-required">*</span></label>
+        <select class="form-control" name="gender" id="gender" required="required" aria-required="true">
+            <option value="Male" id="gender-0">Male</option>
+            <option value="Female" id="gender-1">Female</option>
+            <option value="Transfeminine" id="gender-2">Transfeminine</option>
+            <option value="other" id="gender-3">other</option>
+        </select>
+    </div>
+    <div class="formbuilder-text form-group field-number">
+        <label for="number" class="formbuilder-text-label">Phone Number<span class="formbuilder-required">*</span></label>
+        <input type="tel" class="form-control" name="number" access="false" maxlength="10" id="number" required="required" aria-required="true">
+    </div>
+    <div class="formbuilder-text form-group field-email">
+        <label for="email" class="formbuilder-text-label">Email<span class="formbuilder-required">*</span><span class="tooltip-element" tooltip="Enter Your Valid Email">?</span></label>
+        <input type="email" class="form-control" name="email" access="false" id="email" title="Enter Your Valid Email" required="required" aria-required="true">
+    </div>
+    <div class="formbuilder-textarea form-group field-address">
+        <label for="address" class="formbuilder-textarea-label">Guardian Address<span class="formbuilder-required">*</span></label>
+        <textarea type="textarea" class="form-control" name="address" access="false" maxlength="150" rows="4" id="address" required="required" aria-required="true"></textarea>
+    </div>
+    <div class="formbuilder-text form-group field-city">
+        <label for="city" class="formbuilder-text-label">City<span class="formbuilder-required">*</span></label>
+        <input type="text" class="form-control" name="city" access="false" id="city" required="required" aria-required="true">
+    </div>
+    <div class="formbuilder-text form-group field-state">
+        <label for="state" class="formbuilder-text-label">State<span class="formbuilder-required">*</span></label>
+        <input type="text" class="form-control" name="state" access="false" id="state" required="required" aria-required="true">
+    </div>
+    <div class="formbuilder-text form-group field-zip_code">
+        <label for="zip_code" class="formbuilder-text-label">Zip code<span class="formbuilder-required">*</span></label>
+        <input type="text" class="form-control" name="zip_code" access="false" id="zip_code" required="required" aria-required="true">
+    </div>
+</div>
+</div>
+<button type="submit" class="btn-info btn" name="button" access="false"  id="button">Next</button>
+</form>
+</div>
+</div>
+</body>
+</html>

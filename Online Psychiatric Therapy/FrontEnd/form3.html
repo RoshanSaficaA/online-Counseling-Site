@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Client's Registration form</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="
+sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">"
+<link rel="stylesheet" href="form3.css">
+</head>
+<body>
+  
+<div class="col-md-6">
+
+<div class="box">
+<h3 access="false">Basic Information</h3><hr>
+
+  <form  class="form-inline" action="form3.php" method="post">
+
+  <div class="rendered-form">
+  <div class="row">
+    <div class="formbuilder-text form-group field-first_name">
+        <label for="first_name" class="formbuilder-text-label">First Name<span class="formbuilder-required">*</span><span class="tooltip-element" tooltip="Enter Your First Name">?</span></label>
+        <input type="text" class="form-control" name="first_name" access="false" id="first_name" title="Enter Your First Name" required="required" aria-required="true" >
+    </div>
+    <div class="formbuilder-text form-group field-last_name">
+        <label for="last_name" class="formbuilder-text-label">Last Name<span class="formbuilder-required">*</span><span class="tooltip-element" tooltip="Enter Your Last Name">?</span></label>
+        <input type="text" class="form-control" name="last_name" access="false" id="last_name" title="Enter Your Last Name" required="required" aria-required="true">
+    </div>
+    <div class="formbuilder-date form-group field-dob">
+        <label for="dob" class="formbuilder-date-label">Date Of Birth<span class="formbuilder-required">*</span><span class="tooltip-element" tooltip="Enter Your Birth date">?</span></label>
+        <input type="date" class="form-control" name="dob" access="false" id="dob" title="Enter Your Birth date" required="required" aria-required="true"><br>
+    </div>
+    <div class="formbuilder-number form-group field-age">
+        <label for="age" class="formbuilder-number-label">Age<span class="formbuilder-required">*</span></label>
+        <input type="number" class="form-control" name="age" access="false" min="10" max="60" id="age" required="required" aria-required="true">
+    </div>
+
+    <div class="formbuilder-select form-group field-gender">
+        <label for="gender" class="formbuilder-select-label">Gender<span class="formbuilder-required">*</span></label>
+        <select  type="select" class="form-control" name="gender" id="gender" required="required" aria-required="true">
+            <option value="Male"  id="gender-0">Male</option>
+            <option value="Female" id="gender-1">Female</option>
+            <option value="Transfeminine" id="gender-2">Transfeminine</option>
+            <option value="other" id="gender-3">other</option>
+        </select>
+    </div>
+    <div class="formbuilder-select form-group field-status">
+        <label for="status" class="formbuilder-select-label">Martial Status<span class="formbuilder-required">*</span></label>
+        <select type="select" class="form-control" name="status" id="status" required="required" aria-required="true">
+            <option value="Married" selected="true" id="status-0">Married</option>
+            <option value="Unmarried" id="status-1">Unmarried</option>
+            <option value="Divorced" id="status-2">Divorced</option>
+            <option value="Widow" id="status-3">Widow</option>
+        </select>
+    </div>
+
+   <div class="formbuilder-text form-group field-community">
+        <label for="community" class="formbuilder-text-label">Community<span class="formbuilder-required">*</span></label>
+        <input type="text" class="form-control" name="community" access="false" id="community" required="required" aria-required="true">
+    </div>
+     <div class="formbuilder-text form-group field-nationality">
+        <label for="nationality" class="formbuilder-text-label">Nationality<span class="formbuilder-required">*</span></label>
+        <input type="text" class="form-control" name="nationality" access="false" id="nationality" required="required" aria-required="true">
+    </div>
+    <div class="formbuilder-text form-group field-number">
+        <label for="number" class="formbuilder-text-label">Phone Number<span class="formbuilder-required">*</span><span class="tooltip-element" tooltip="Enter Your Contact Number">?</span></label>
+        <input type="tel" class="form-control" name="number" access="false" id="number" title="Enter Your Contact Number" required="required" aria-required="true">
+    </div>
+    <div class="formbuilder-text form-group field-email">
+        <label for="email" class="formbuilder-text-label">Email<span class="formbuilder-required">*</span><span class="tooltip-element" tooltip="Enter Your Contact Email">?</span></label>
+        <input type="email" class="form-control" name="email" access="false" id="email" title="Enter Your Contact Email" required="required" aria-required="true">
+    </div>
+    <div class="formbuilder-textarea form-group field-address">
+        <label for="address" class="formbuilder-textarea-label">Address<span class="formbuilder-required">*</span><span class="tooltip-element" tooltip="Enter Your Permanent Address">?</span></label>
+        <textarea type="textarea" class="form-control" name="address" access="false" maxlength="150" rows="4" id="address" title="Enter Your Permanent Address" required="required" aria-required="true"></textarea>
+    </div>
+    <div class="formbuilder-text form-group field-city">
+        <label for="city" class="formbuilder-text-label">City<span class="formbuilder-required">*</span></label>
+        <input type="text" class="form-control" name="city" access="false" id="city" required="required" aria-required="true">
+    </div>
+    <div class="formbuilder-text form-group field-state">
+        <label for="state" class="formbuilder-text-label">State<span class="formbuilder-required">*</span></label>
+        <input type="text" class="form-control" name="state" access="false" id="code" required="required" aria-required="true">
+    </div>
+    <div class="formbuilder-text form-group field-zip_code">
+        <label for="zip_code" class="formbuilder-text-label">Zip Code<span class="formbuilder-required">*</span><span class="tooltip-element" tooltip="Enter Your Nearby Postal Code">?</span></label>
+        <input type="text" class="form-control" name="zip_code" access="false" id="zip_code" title="Enter Your Nearby Postal Code" required="required" aria-required="true">
+    </div>
+</div>
+
+</div>
+
+<button type="submit" class="btn-info btn" name="button" access="false" id="button">Next</button>
+</form>
+
+</div>
+</div>
+
+</body>
+</html>

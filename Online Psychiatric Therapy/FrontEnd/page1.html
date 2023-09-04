@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>For Individual</title>
+</head>
+<style>
+body{
+  font-size:18px;
+  background:#ECECEC;
+  margin:0;
+  padding:0;
+}
+h1 {
+  transform: translate(2%,-20%);
+  padding: 25px 0;
+  font-size: 20px;
+  color: rgb(54, 56, 55);
+}
+
+.container-1{
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+input[type="checkbox"]{
+  display:none;
+}
+
+input[type="checkbox"]:hover + label:before{
+  opacity: .5;
+}
+
+.checkbox{
+  display:inline-block;
+  position:relative;
+  padding-left:45px;
+  line-height: 35px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #111;
+  font-weight: 600;
+}
+
+.checkbox:before{
+  z-index:15;
+  content: '';
+  position:absolute;
+  left:6px;
+  top: 6px;
+  transition:all 0.3s ease;
+  cursor:pointer;
+  width:15px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #444;
+  height:15px;
+}
+input[type="checkbox"]:checked + label{
+  color:#000;
+}
+
+input[type="checkbox"]:checked +  label:before{
+  border-color: transparent;
+  border-left-color: #2ecc71;
+  border-bottom-color: #2ecc71;
+  transform:rotate(-50deg);
+  width:22px;
+  height:12px;
+  top: 3px;
+}
+
+.box{
+max-width: 600px;
+height:480px;
+float: none;
+margin:150px auto;
+background:#FFFFFF;
+color:black;
+top: 45%;
+left: 50%;
+position: absolute;
+transform: translate(-53%,-80%);
+box-sizing: border-box;
+padding: 50px 70px;
+}
+
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.custom-btn {
+  width: 120px;
+  height: 45px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-1 {
+  background: rgb(96,9,240);
+  background: linear-gradient(0deg, #4E9F3D 100%, #4E9F3D 100%);
+  border: none;
+margin: 55px;
+  transform: translate(170%,-140%);
+  
+}
+.btn-1:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-1:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+button {
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  outline:0;
+}
+
+svg {
+  padding: 5px;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -45px;
+  margin-left: -35px;
+  width: 70px;
+  height: 90px;
+}
+
+.left {
+  left: 42%;
+}
+.left:hover polyline,
+.left:focus polyline {
+  stroke-width: 3;
+}
+
+.left:active polyline {
+  stroke-width: 6;
+  transition: all 100ms ease-in-out;
+}
+
+polyline {
+  transition: all 250ms ease-in-out;
+}
+
+
+</style>
+<body>
+<button class="arrow left">
+  <svg width="20px" height="20px" viewBox="0 0 50 80" xml:space="preserve">
+    <polyline fill="none" stroke="black" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
+	45.63,75.8 0.375,38.087 45.63,0.375 "/>
+  </svg>  
+</button>
+<form action=page2.html>
+<div class="box">
+<div class="container-1">
+      <div class="form-container">
+<h1>What led you to consider therapy today?</h1>
+
+        <div class="checkbox-container">
+          <input type="checkbox" id="ques-1"/>
+          <label class="checkbox" for="ques-1">I've been feeling depressed </label>
+        </div>
+        <div class="checkbox-container">
+          <input type="checkbox" id="ques-2"/>
+          <label class="checkbox" for="ques-2">I'm grieving</label>
+        </div>
+        <div class="checkbox-container">
+          <input type="checkbox" id="ques-3"/>
+          <label class="checkbox" for="ques-3">I'm struggle with building or making relationships</label>
+        </div>
+         <div class="checkbox-container">
+          <input type="checkbox" id="ques-4"/>
+          <label class="checkbox" for="ques-4">I want to gain self-confidence</label>
+      </div>
+        <div class="checkbox-container">
+          <input type="checkbox" id="ques-5"/>
+          <label class="checkbox" for="ques-5">I want to improve myself but don't know where to start</label>
+      </div>
+<div class="frame">
+<button class="custom-btn btn-1">Next</button>
+</div>
+    </div>
+</div>
+</div>
+</form>
+</body>
+</html>

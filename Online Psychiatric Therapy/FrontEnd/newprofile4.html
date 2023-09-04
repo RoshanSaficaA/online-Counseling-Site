@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Therapist Profile</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'><link rel="stylesheet" href="./profile.css">
+
+</head>
+<style>
+
+
+::before,
+::after {
+  position: absolute;
+  content: "";
+}
+
+.btn-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 200px;
+  margin: 10px auto 35px;
+  
+}
+.next-btn {
+    max-width: 500px;
+    max-height: 300%;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: -1px -30px 39px 46px;
+    width: 100px;
+    box-sizing: border-box;
+    translate: transform(40%,40%);
+}
+.prev-btn {
+    max-width: 200px;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin:-1px 61px -18px 62px;
+    width: 190px;
+    width: 106px;
+        box-sizing: border-box;
+}
+
+
+#btn-2 {
+    max-width: 200px;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 15px -18px 27px;
+    width: 190px;
+    width: 106px;
+    box-sizing: border-box;
+}
+  .btn span {         
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    transition: 0.3s;
+
+  }
+.btn-2 {
+transform: translate(150%,-120%);
+}
+.btn-2::before {
+  background-color: rgb(28, 31, 30);
+  transition: 0.3s ease-out;
+}
+.btn-2 span {
+  color: rgb(255,255,255);
+  border: 1px solid rgb(28, 31, 30);
+  transition: 0.2s 0.1s;
+
+}
+.btn-2 span:hover {
+  color: rgb(28, 31, 30);
+  transition: 0.2s 0.1s;
+}
+.btn.hover-filled-opacity::before {
+  top:0; bottom: 0; right: 0;
+  height: 100%; width: 100%;
+  opacity: 1;
+}
+.btn.hover-filled-opacity:hover::before {
+  opacity: 0;
+}
+</style>
+<body>
+<!-- partial:index.partial.html -->
+<main class="main">
+  <section class="container">
+
+    <div class="title">
+      <h2>Available Therapists</h2>
+      <div class="underline"></div>
+    </div>
+
+    <article class="review">
+      <div class="img-container">
+        <img src="doc4.webp" alt="" id="person-img" />
+      </div>
+
+      <h4 id="author">Mr Issac Paul</h4>
+      <p id="job">Counselling Psychotherapist</p>
+      <p id="info">
+        A compassionate and client-centered therapist who aims to provide a safe space of authenticity and support to clients who wish to explore and process their emotions to work towards overcoming or healing from their conflicts.
+      </p>
+
+      <!-- prev next buttons-->
+    
+    
+
+        <a class="prev-btn btn" href="newprofile3.html">
+          <i class="fas fa-chevron-left"></i>
+        </a>
+    
+    
+
+
+        <a class="next-btn btn" href="newprofile1.html">
+          <i class="fas fa-chevron-right"></i>
+        </a>
+   
+   
+      
+        <a id="btn-2 " class="btn btn-2 hover-filled-opacity" href="session4.php">
+          <span>select</span>
+        </a>
+      
+      
+
+    </article>
+  </section>
+</main>
+
+
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,236 @@
+body {
+    display: flex;
+    align-items: center;
+  justify-content:center;
+    flex-flow:row wrap;
+  margin:0;
+                  padding:0;
+                  background:url(image10.jpg)no-repeat center fixed;
+                  -webkit-background-size: cover;
+                  -moz-background-size: cover;
+                  -o-background-size: cover;
+  height:990px;
+  }
+  
+  hr
+  {
+  border: 1px solid white;
+  color:white;
+  }
+  
+  h3{
+  font-size:24px;
+  color:white;
+  }
+
+  .box{
+    width: 908px;
+    height:950px;
+    float: none;
+    margin:150px auto;
+    background:rgba(44, 43, 43, 0.507);
+    color:black;
+    top: 8%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-65%);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 5px rgba(41,40,40,0.247);
+    padding: 30px 70px;
+    }
+
+button
+{
+transform: translate(660%,10%);
+padding:30px 38px;
+border:none;
+background-color:#008CBA;
+border-radius:5px;
+font-size:16px;
+color:white;
+cursor:pointer;
+width:100px;
+}
+
+@media (max-width:800px)
+{
+form input{
+margin:10px 0;
+}
+form
+{
+flex-direction:column;
+align-items:stretch;
+}
+}
+
+label [for=question_1]
+{
+    width:12cm;
+    margin:15px 80px 0px 0;
+    display:inline-block;
+    font-size:16px;
+    transform: translate(20%,10%);  
+}
+#question_1
+{
+    margin: 22px 0px 15px 30px;
+    padding: 8px;
+    width: 154px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+
+label [for=question_2]
+{
+    width:12cm;
+    margin:15px 50px 0px 0;
+    display:inline-block;
+    font-size:19px;
+    transform: translate(10%,10%);  
+}
+#question_2
+{
+    margin: 22px 60px 14px 21px;
+    padding: 8px;
+    width: 154px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+label [for=question_3]
+{
+    width:12cm;
+    margin:15px 65px 0px 0;
+    display:inline-block;
+    font-size:19px;
+    transform: translate(20%,10%);   
+}
+#question_3
+{
+    margin: 29px 24px 23px 9px;
+    padding: 8px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+label [for=question_4]
+{
+    width:12cm;
+    margin:15px 65px 0px 0;
+    display:inline-block;
+    font-size:19px;
+    transform: translate(20%,10%);  
+}
+#question_4
+{
+    margin: 11px 30px 12px 59px;
+    padding: 8px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+label [for=question_5]
+{
+    width:12cm;
+    margin:15px 65px 0px 0;
+    display:inline-block;
+    font-size:19px;
+    transform: translate(20%,10%);  
+}
+#question_5
+{
+    margin: 35px 13px 23px 19px;
+    padding: 8px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+label [for=question_6]
+{
+    width:12cm;
+    margin:15px 65px 0px 0;
+    display:inline-block;
+    font-size:19px;
+    transform: translate(20%,10%);  
+}
+#question_6
+{
+    margin: 20px -180px 5px 5px;
+    padding: 8px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+label [for=question_7]
+{
+    width:12cm;
+    margin:15px 65px 0px 0;
+    display:inline-block;
+    font-size:19px;
+    transform: translate(20%,10%);    
+}
+#question_7
+{
+    margin: 19px 60px 14px 41px;
+    padding: 8px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+label [for=question_8]
+{
+    width:12cm;
+    margin:15px 65px 0px 0;
+    display:inline-block;
+    font-size:19px;
+    transform: translate(20%,10%);   
+}
+#question_8
+{
+    margin: 25px 60px 18px 10px;
+    padding: 8px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+label [for=question_9]
+{
+    width:12cm;
+    margin:15px 65px 0px 0;
+    display:inline-block;
+    font-size:19px;
+    transform: translate(20%,10%);   
+}
+#question_9
+{
+    margin: 11px 39px 11px 28px;
+    padding: 8px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+label [for=question_10]
+{
+    width:12cm;
+    margin:15px 65px 0px 0;
+    display:inline-block;
+    font-size:19px;
+    transform: translate(20%,10%);   
+}
+    #question_10
+    {
+        margin: 22px 36px 21px 22px;
+        padding: 8px;
+        width: 160px;
+        border-radius: 5px;
+        font-size: 17px;
+    }
